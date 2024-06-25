@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.Container {
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.note {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.image {
+  width: 150px;
+}
+@media (min-width: 768px) {
+  .image {
+    width: 300px;
+  }
+  .note {
+    font-size: 50px;
+  }
+}
